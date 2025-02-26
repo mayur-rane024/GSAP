@@ -1,8 +1,8 @@
-gsap.from("h1" , {
-    opacity : 0 ,
-    y : 30,
-    color: "red" , 
-    duration : 1 ,
-    delay : 1.5,
-    stagger : 0.3    // same name wale logo ko alag alag se chalata hai
+gsap.to("#box1" , {
+  x : 1200 , 
+ duration : 1.5 ,
+ delay : 1 , 
+ repeat :-1 , 
+ rotate : 360,
+ yoyo : true 
 })
