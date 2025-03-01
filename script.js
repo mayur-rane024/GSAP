@@ -1,8 +1,16 @@
-gsap.to("#box1" , {
-  x : 1200 , 
- duration : 1.5 ,
- delay : 1 , 
- repeat :-1 , 
- rotate : 360,
- yoyo : true 
+var tl = gsap.timeline()
+
+tl.from("h2",{
+    y : -20 , 
+    opacity : 0 ,
+    duration : 1, 
+    delay : 0.5
+})
+
+tl.from("h4",{
+    y : -20 ,   
+    opacity :0 ,
+    duration : 1 ,
+    delay :0.5 ,
+    stagger :0.3
 })
